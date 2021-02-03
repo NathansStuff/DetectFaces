@@ -4,7 +4,11 @@ import './imagelinkform.css';
 const ImageLinkForm = ({ onInputChange, onSubmit }) => {
   return (
     <div>
-      <p className='f3'>{`This Magic Brain will detect faces in you pictures. Give it a try`}</p>
+      <p className=' f3'>
+        This will detect faces in an image using Clarifai's API.
+        <br />
+        Put in an URL of an image to give it a try.
+      </p>
       <div className='center'>
         <div className='center form pa4 br3 shadow-5'>
           <input
